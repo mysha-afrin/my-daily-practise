@@ -17,3 +17,6 @@ print(exercise_pet1)
 exer_pets = "I like puppies, puppies, puppies, puppies"
 exer_pets1 = exer_pets.replace("puppies", "kitten",2)
 print(exer_pets1)
+
+test_value = 'Hello' + '\tworld'
+print(test_value)
