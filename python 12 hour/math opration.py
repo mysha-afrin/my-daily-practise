@@ -33,7 +33,8 @@ tuple.append(value) fails.'''
 tuples = (1, 2, 3, 3, True ,("h", "K"))
 print(tuples)
 
-
+default_value = ['b', 'g', 'h']
+print(default_value[1:2])
 
 
 
