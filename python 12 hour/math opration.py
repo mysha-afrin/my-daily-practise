@@ -20,3 +20,20 @@ print(exer_pets1)
 
 test_value = 'Hello' + '\tworld'
 print(test_value)
+
+
+
+
+#NOTE#
+'''List and tuples can store different types of data.Both can contain any kind of data.Even a tuple can contain a 
+tuple and a list can contain a list.'''
+'''Tuples are immutable and lists are mutable.'''
+'''list.append(value) works
+tuple.append(value) fails.'''
+tuples = (1, 2, 3, 3, True ,("h", "K"))
+print(tuples)
+
+
+
+
+
