@@ -67,3 +67,10 @@ print(my_num)
 my_num.remove(2)
 print(my_num)
 
+
+
+
+print(my_num)
+print(len(my_num)) #Prints the length of dictionary.
+
+
