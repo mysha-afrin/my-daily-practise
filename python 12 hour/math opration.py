@@ -33,6 +33,19 @@ tuple.append(value) fails.'''
 tuples = (1, 2, 3, 3, True ,("h", "K"))
 print(tuples)
 
+
+
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+print(list[-1::-3])
+
+a, b = (1, 2)
+print(a)
+print(b)
+c, d = [20, 'Hello']
+print(c)
+print(d)
+
+
 default_value = ['b', 'g', 'h']
 print(default_value[1:2])
 
