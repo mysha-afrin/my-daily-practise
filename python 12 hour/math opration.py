@@ -59,11 +59,11 @@ print(test_string.split())
 
 my_num = {1, 2, 3, 4, 5}
 ##NOTE##
-'''This method add index to dictionary.'''
+'''This method add index to set.'''
 my_num.add(6)
 print(my_num)
 ##NOTE##
-'''This method remove an index to dictionary.'''
+'''This method remove an index to set.'''
 my_num.remove(2)
 print(my_num)
 
@@ -71,6 +71,6 @@ print(my_num)
 
 
 print(my_num)
-print(len(my_num)) #Prints the length of dictionary.
+print(len(my_num)) #Prints the length of set.
 
 
