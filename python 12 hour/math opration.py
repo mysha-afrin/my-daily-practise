@@ -55,3 +55,15 @@ print(default_value[1:2])
 
 test_string = "this is a string."
 print(test_string.split())
+
+
+my_num = {1, 2, 3, 4, 5}
+##NOTE##
+'''This method add index to dictionary.'''
+my_num.add(6)
+print(my_num)
+##NOTE##
+'''This method remove an index to dictionary.'''
+my_num.remove(2)
+print(my_num)
+
