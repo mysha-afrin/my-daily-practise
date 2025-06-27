@@ -51,3 +51,7 @@ print(default_value[1:2])
 
 
 
+#turning a string into a list/tuple
+
+test_string = "this is a string."
+print(test_string.split())
