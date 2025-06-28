@@ -94,3 +94,7 @@ print(my_num1.difference(my_num2))
    <, <= smaller than ,smaller or equal than."""
 
 
+print(1 in (1, 2, 3))
+print('e' in 'Hello')
+
+
