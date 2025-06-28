@@ -78,3 +78,12 @@ my_num1 = {1, 2, 3, 4, 5, 6, 7}
 my_num2 = {8, 9, 10}
 print(my_num1.union(my_num2))
 print(my_num1.intersection(my_num2))
+
+
+
+'''                               Comparison operators                              '''
+"""== is equal
+   != is not equal
+   <, <= smaller than ,smaller or equal than."""
+
+
