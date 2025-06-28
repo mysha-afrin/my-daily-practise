@@ -16,3 +16,10 @@ elif x <= 40:
    print("Buy a sanwish")
 else:
    print("You can buy a pizza or burger or some pasta.")
+
+
+list = ['a', 'b']
+if 'a' in list:
+   print( "a is list")
+else:
+   print(" a is not in tha list.")
