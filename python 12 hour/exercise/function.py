@@ -8,3 +8,11 @@ def better_calculator(num1, num2, operator):
         print(f"{num1} - {num2} = {result}")
 better_calculator(2, 4, 'plus' )
 better_calculator(6, 8, 'minus')
+
+
+def test_function(arg1, arg2, arg3, arg4):
+    print(arg1)
+    print(arg2)
+    print(arg3)
+    print(arg4)
+test_function(1, arg2 = 2, arg3 = 34, arg4 = [2, 3, 4])#Positional argument can not come first.
