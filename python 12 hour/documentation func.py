@@ -7,3 +7,13 @@ print(test.__doc__)
 help(test)
 
 print("Hey there")
+
+
+#If i want return value in function then should use return.
+def test(a:int = 10, b:int = 0) -> int :
+    print(a)
+    print(b)
+    return a + b
+test(1, 2)
+print(test.__doc__)
+help(test)
