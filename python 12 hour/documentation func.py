@@ -5,3 +5,5 @@ def test(a, b):
 test(1, 2)
 print(test.__doc__)
 help(test)
+
+print("Hey there")
