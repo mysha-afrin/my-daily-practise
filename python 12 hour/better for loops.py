@@ -5,8 +5,11 @@ print(list(zip(inventiry_names, inventory_num)))
 
 for thing in zip(inventory_num, inventory_names):
     print(thing)
-    print(thing[0]
+    print(thing[0])
 
 
   for name, number in zip(inventory_names, inventory_num):
     print(f"{name} current inventory is: {number}")
+
+
+print(list(enumerate(inventory_names)))
