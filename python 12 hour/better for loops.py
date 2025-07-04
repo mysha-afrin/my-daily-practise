@@ -1,0 +1,3 @@
+inventiry_names = ['screws', 'wheels', 'Metal parts', 'Rubber bits', 'screw driver', 'wood']
+inventory_num = [23, 45, 78, 49, 50, 36]
+print(list(zip(inventiry_names, inventory_num)))
