@@ -15,3 +15,7 @@ my_list = [num for num in range(0, 100) if num< 10] #Here in this condition else
 print(my_list)
 my_list1 = [num if num < 10 else 0 for num in range(0, 100)] #This line is more powerful than the upper one.
 print(my_list1)
+
+
+combined_comb = [x for x in range(5)]
+print(combined_comb)
