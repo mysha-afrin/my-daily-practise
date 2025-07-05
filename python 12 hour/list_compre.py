@@ -19,3 +19,7 @@ print(my_list1)
 
 combined_comb = [x for x in range(5)]
 print(combined_comb)
+
+combined_comb = [[x for x in range(5)] for y in range(10)]
+for row in combined_comb:#This statement here shows the list in row.
+    print(row)
