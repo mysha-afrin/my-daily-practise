@@ -3,6 +3,7 @@
 #abcdefgh
 #12345678
 
-chess_board = [[(x, y) for x in range(1, 8)] for y in ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']]
+
+chess_board = [[f'{letter}{num}'for num in range(1,9)]for letter in 'ABCDEFGH']
 for row in chess_board:
     print(row)
