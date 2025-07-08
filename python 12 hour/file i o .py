@@ -10,3 +10,8 @@ with open('some.txt') as file:
 #open and close automatically.
 with open('some.txt') as file:
     print(file.read())
+
+
+#open a file in write mode.
+with open('test.txt', 'a') as file:
+    file.write("XXXXXXXXZZZZ")
