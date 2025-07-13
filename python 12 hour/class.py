@@ -2,6 +2,10 @@ class Monster:
     #attributes
     health = 90
     energy = 40
+    def __init__(self, health, energy): #Dender method
+        self.health = health
+        self.energy = energy
+        
     #methods
     def attack(self, damage):
         print("the monster has attacked!")
@@ -9,8 +13,7 @@ class Monster:
     def move(self, speed):
         print("The monster has moved!")
         print(f"It has speed of {speed}.")
-monster = Monster()
-monster.attack(40)
-monster.speed = 40
-print(monster.health)
-print(monster.energy)
+monster1 = Monster(10, 20)
+monster2 = Monster(health = 50, energy = 100)
+print(monster1.health)
+print(monster2.energy
