@@ -16,4 +16,14 @@ class Hero:
 #the monster class should have a method that lowers the health->get_amount(amount)
 #the hero class should have an attack method
 
+class Hero:
+    def __init__(self, damage, monster):
+        self.damage = damage
+        self.monster = monster
+    def attack(self):
+        self.monster.get_damage(self.damage)
+monster = Monster(health = 100, energy = 50)
+hero = Hero(damage = 15, monster = monster)
+print(monster.health)
+print(hero.damage)
 
