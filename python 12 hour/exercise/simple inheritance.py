@@ -10,7 +10,7 @@ class Monster:
     def move(self, speed):
         print("The monster is moved .")
         print(f"{speed} was the speed.")
-class Parent(Monster):
+'''class Parent(Monster):
     def __init__(self, speed, health, energy):
         Monster.__init__(self, health, energy)
         self.speed = speed
@@ -18,7 +18,7 @@ class Parent(Monster):
         print(f"{amount} was dealth.")
     def move(self):
         print("The parent has moved.")
-        print(f"The speed of the parent is {self.speed}.")
+        print(f"The speed of the parent is {self.speed}.")'''
 class Scorpion(Monster):
     def __init__(self, speed, health, energy):
         Monster.__init__(self, health, energy)
