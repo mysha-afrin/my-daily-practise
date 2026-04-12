@@ -6,4 +6,11 @@ url = "https://api.stackexchange.com/2.3/questions?order=desc&sort=activity&site
 
 response = requests.get(url)
 
-print(response)
+
+
+for data in response.json()['items']:
+    if data['answer_count'] == 0:
+        print(data['title'])
+        print(data['link'])
+    else:
+        print("Skipped")
